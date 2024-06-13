@@ -7,6 +7,8 @@
     --color-dark-2:#7d8184;
     --color-white-1:#ffffff;
     --color-white-2:#f5f5f5;
+    --color-yellow-1:hsla(36, 100%, 60%, 1);
+    ;
 
 }
 
@@ -171,3 +173,198 @@ ul{
 .header_filter_link{
     color: var(--color-dark-1);
 }
+
+/* Seaction */
+
+.section{
+    margin-top: 10rem;
+}
+
+/* Flash Sale*/
+.section_category{
+    height: 4rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.4rem;
+    color: var(--color-primary);
+    font-weight: 800;
+}
+.section_rectangle {
+    width: 1.5rem;
+    height: 3.5rem; 
+    background-color: var(--color-primary);
+    border-radius: 0.3rem;
+}
+
+.section_header{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 6rem;
+}
+.section_title{
+    font-size: 4rem;
+    color: var(--color-dark-1);
+    font-weight: 700;
+}
+
+.coundown{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.6rem;
+    color: var(--color-dark-1);
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+.coundown p{
+    font-size: 1rem;
+    color: var(--color-dark-1)
+}
+.coundown span{
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: var(--color-primary);
+    font-weight: 900;
+}
+#hours ,#minutes, #seconds, #days{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+/*slider*/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-top: 5rem;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* cards */
+
+  .card_top{
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .card_img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .card_tag{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 9;
+    background-color: var(--color-primary);
+    padding: .4rem .7rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-white-2);
+    border-radius: 0.5rem;
+  }
+
+  .card_top_icons{
+    position: absolute;
+    top:1rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    z-index: 9;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .card_top_icon{
+    width: 100%;
+    height: 100%;
+    color: var(--color-white-2);
+    cursor: pointer;
+    background-color: var(--color-white-1);
+    border-radius: 50%;
+    padding: .4rem;
+  }
+
+  .card_star {
+    width: 1.5rem;
+    height: auto;
+}
+  
+.card_body{
+    margin-top: 1rem;
+}
+
+.card_title{
+    text-align: left;
+    font-size: 1.4rem;
+}
+.card_price{
+    color: var(--color-primary);
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.4rem;
+    margin-top: 0.8rem;
+}
+
+.card_price span{
+    color: var(--color-dark-2);
+    font-weight: 600;
+    text-decoration: line-through;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
+.card_ratings{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0.5rem;
+    margin-top: 0.8rem;
+    font-size: 1.47rem;
+    color: var(--color-dark-2);
+}
+.card_rating_numbers{
+    margin-bottom: 0.3rem;
+}
+.card{
+    margin-bottom: 4rem;
+}
+
+.container_btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 4rem;
+}
+
+.container_btn_a{
+    color: var(--color-white-2);
+    font-size: 1.4rem;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    padding: 1.2rem 4rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+}
+
