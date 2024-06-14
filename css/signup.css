@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --font-main: "Inter",sans-serif;
+    --color-primary:#db4444;
+    --color-dark-1:#000000;
+    --color-dark-2:#7d8184;
+    --color-white-1:#ffffff;
+    --color-white-2:#f5f5f5;
+    --color-yellow-1:hsla(36, 100%, 60%, 1);
+    ;
+
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    /* 1 rem 10px */
+}
+
+body{
+    font-family: var(--font-main);
+    font-size: 1.6rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 114rem;
+    margin: 0 auto;
+    padding: 0 1px;
+}
+
+.top_nav{
+    background-color: var(--color-dark-1);
+
+}
+
+.top_nav_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 5rem;
+}
+.top_nav_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0.8;
+    width: 100%;
+    gap: 2rem;
+
+}
+.top_nav_p{
+    color: var(--color-white-2);
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+.top_nav_link{
+    color: var(--color-white-1);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: underline;
+    padding: 0;
+    min-width: 8.4rem;
+    
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0px;
+    padding-left: 2rem;
+    object-fit: contain;
+    gap: 1rem;
+    color: var(--color-white-2);
+}
+.language img{
+    width: 2rem;
+    height: auto;
+    
+}
+
+.nav_bar{
+    width: 100%;
+    height: 8rem;
+    border-bottom: 1px solid var(--color-dark-2);
+    display: flex;
+    align-items: center;
+
+}
+.nav_bar_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.nav_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.logo{
+    font-size: 2.6rem;
+    font-weight: 700;
+    
+    color: var(--color-dark-1);
+    
+}
+
+.search_container{
+    padding: 0.8rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-white-2);
+}
+
+.search_input{
+    outline: none;
+    border: none;
+    padding: .6rem;
+    background-color: transparent;
+}
+
+.sign_up_container{
+    width:100%;
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    margin-left: -10rem;
+}
+.auth_image{
+    margin-right: 20rem;
+    margin-left: -15rem;
+}
+
+.input_information{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    outline: none;
+    
+}
+.input_information input{  
+    padding: 4em 0rem;
+    padding-bottom: 0.5rem;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
+
+
+    
+}
+.input_information input::placeholder{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--color-dark-2);
+}
+
+.sign_up_btn{
+    margin-top: 3rem;
+    border: none;
+    outline: none;
+    padding: 2rem 10rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-white-1);
+    background-color: var(--color-primary);
+    border-radius: 0.7rem;
+}
+
+.sign_up_title{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--color-dark-1);
+}
+
+.create_account p{
+    font-weight: 500;
+}
+
+
+.footer_wrapper {
+
+    margin-top: 10rem;
+
+    width: 100%;
+    height: 40rem;
+    padding: 2rem 0;
+    background-color: var(--color-dark-1);
+    color: var(--color-white-1);
+}
+
+.footer_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40rem;
+}
+/* 
+.footer_container h4{
+    margin-bottom: 1rem;
+}
+.support div p{
+    line-height: 2.2rem;
+}
+.support div {
+    padding: 1rem 0rem;
+}
+
+.exclucive_ p:nth-child(2){
+    font-weight: 600;
+}
+ */
+ .input_mail img{
+    width: 3rem;
+    height: auto;
+}
+.footer_container p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    
+}
