@@ -375,6 +375,7 @@ ul{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(14rem,1fr));
     grid-gap: 2rem;
+    margin-top: 5rem;
 }
 
 .category{
@@ -432,4 +433,144 @@ ul{
 .trending_img{
     width: 100%;
     height:fit-content;
+}
+.products{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(22rem,1fr));
+    grid-gap: 2rem;
+}
+
+/*GALLERY*/
+
+.gallery_item{
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+.gallery_item_content{
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    z-index: 9;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.gallery{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, auto);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-top: 5rem;
+}
+
+.gallery_item_1{
+    
+    grid-area: 1 / 1 / 9 / 5;
+}
+.gallery_item_2{
+    grid-area: 1 / 5 / 5 / 9;
+}
+.gallery_item_3{
+    grid-area: 5 / 5 / 9 / 7;
+}
+
+.gallery_item_4{
+    grid-area: 5 / 7 / 9 / 9;
+}
+
+.gallery_item_title{
+    color: var(--color-white-1);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.gallery_item_p{
+    color: var(--color-white-1);
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.gallery_item_content a{
+    font-size: 1.3rem;
+    color: var(--color-white-1);
+    font-weight: 500;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.services_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:2rem;
+    justify-content: space-around;
+
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: var(--color-dark-1);
+
+}
+.service p{
+    font-size: 1.3rem;
+}
+.service_img{
+    margin-bottom: 2rem;
+}
+
+.footer{
+    margin-top: 10rem;
+    background-color: var(--color-dark-1);
+    
+}
+.footer_container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    grid-gap: 3rem;
+    padding: 5rem 0rem;
+    color: var(--color-white-1);
+}
+.footer_logo{
+    font-size: 3rem;
+    color: var(--color-white-1);
+    font-weight: 700;
+}
+.footer_p{
+    margin-bottom: 1.2rem;
+}
+
+.footer_item_title{
+    margin-bottom: 1.2rem;
+
+
+}
+
+.footer_list_item{
+    margin:0.5rem 0rem;
+}
+
+.footer_bottom_container{
+    width: 100%;
+    text-align: center;
+}
+
+.footer_copy{
+    color: var(--color-dark-2);
+    padding: 1.5rem 0rem;
 }
